@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign In & Log In Page</title>
+    <!-- Custom Style CSS -->
+
+    <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./css/sign_in.css" />
+    <!-- End Custom Style CSS  -->
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <a href="/index.html"
+        ><img src="./img/logo_1.jpg" alt="logo" class="logo_1"
+      /></a>
+      <ul class="nav-links">
+        <li><a href="/index.html">หน้าหลัก</a></li>
+        <div class="dropdown">
+          <a>การให้บริการฐานข้อมูล</a>
+          <div class="dropdown-content">
+            <a href="#">A</a>
+            <a href="#">B</a>
+            <a href="/sign_in.html">Thai LCI</a>
+          </div>
+        </div>
+        <li><a href="/chooselci.html">(ซ่อน)</a></li>
+        <li><a href="/dataset.html">ชุดข้อมูล</a></li>
+        <div class="dropdown">
+          <a>ข้อตกลงการใช้งาน</a>
+          <div class="dropdown-content">
+            <a href="/condition.html">เงื่อนไขการให้บริการ</a>
+            <a href="/policy.html">นโยบายคุ้มครองข้อมูลส่วนบุคคล</a>
+          </div>
+        </div>
+        <li><a href="/sign_in.html">เข้าสู่ระบบ/ลงทะเบียน</a></li>
+      </ul>
+    </nav>
+    <!-- Navbar Section -->
+
+    <!-- Header Section -->
+    <header>
+      <div class="header-content">
+        <!-- Form Section -->
+        <div id="login-form" class="login-page">
+          <div class="form-box">
+            <div class="button-box">
+              <div id="btn"></div>
+              <button type="button" onclick="login()" class="toggle-btn">
+                เข้าสู่ระบบ
+              </button>
+              <button type="button" onclick="register()" class="toggle-btn">
+                ลงทะเบียน
+              </button>
+            </div>
+            <form id="login" class="input-group-login">
+              <input
+                type="text"
+                class="input-field"
+                placeholder="ชื่อบัญชีผู้ใช้"
+                required
+                id="username"
+              />
+              <input
+                type="password"
+                class="input-field"
+                placeholder="รหัสผ่าน"
+                required
+                id="password"
+              />
+              <div class="check-box_1">
+                <input type="checkbox" /><span class="remember_password"
+                  >จำรหัสผ่าน</span
+                >
+                <a href="/forgot_password.html"
+                  ><span class="forgot_password">ลืมรหัสผ่าน</span></a
+                >
+              </div>
+              <button type="submit" class="submit-btn">เข้าสู่ระบบ</button>
+            </form>
+            <form id="register" class="input-group-register">
+              <input
+                type="text"
+                class="input-field"
+                placeholder="ชื่อบัญชีผู้ใช้"
+                required
+              />
+              <input
+                type="email"
+                class="input-field"
+                placeholder="อีเมล"
+                required
+              />
+              <input
+                type="password"
+                class="input-field"
+                placeholder="รหัสผ่าน"
+                required
+              />
+              <input
+                type="password"
+                class="input-field"
+                placeholder="ยืนยันรหัสผ่าน"
+                required
+              />
+              <input
+                type="text"
+                class="input-field"
+                placeholder="เลขบัตรประชาชน"
+                required
+              />
+              <!-- 
+                        <label class="prefix"></label>
+                        <select class="prefix_choose">
+                          <option value="Mr">นาย</option>
+                          <option value="Mrs">นาง</option>
+                          <option value="Miss">นางสาว</option>>
+                        </select>
+                        -->
+              <input
+                type="text"
+                class="input-field"
+                placeholder="คำนำหน้า"
+                required
+              />
+              <input
+                type="text"
+                class="input-field"
+                placeholder="ชื่อ"
+                required
+              />
+              <input
+                type="text"
+                class="input-field"
+                placeholder="นามสกุล"
+                required
+              />
+              <input
+                type="tel"
+                class="input-field"
+                placeholder="เบอร์โทรศัพท์"
+                required
+              />
+              <div class="check-box_2">
+                <input type="checkbox" />
+                <span class="accept_condition_1">
+                  ข้าพเจ้าได้อ่านและยอมรับเงื่อนไขตามที่ระบุไว้ใน
+                  <a href="/condition.html" class="condition_1"
+                    >เงื่อนไขการให้บริการ</a
+                  >ทุกประการ
+                </span>
+              </div>
+              <div class="check-box_3">
+                <input type="checkbox" />
+                <span class="accept_condition_2">
+                  ข้าพเจ้าได้อ่านและยอมรับเงื่อนไขตามที่ระบุไว้ใน
+                  <a href="/policy.html" class="condition_2"
+                    >นโยบายคุ้มครองข้อมูลส่วนบุคคล</a
+                  >
+                  ทุกประการ และให้ความยินยอมในการเก็บรวบรวม
+                  และใช้ประโยชน์ตามวัตถุประสงค์ของการให้บริการ
+                </span>
+              </div>
+              <button type="submit" class="submit-btn">ลงทะเบียน</button>
+            </form>
+          </div>
+        </div>
+        <!-- End Form Section -->
+      </div>
+    </header>
+    <!-- End Header Section -->
+
+    <script src="./scripts/sign_in.js"></script>
+  </body>
+</html>

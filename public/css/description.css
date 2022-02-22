@@ -1,0 +1,26 @@
+.description {
+  margin-top: 8%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  width: 95%;
+  height: 100vh;
+}
+
+.headerOfDescription {
+  color: rgb(75, 71, 71);
+}
+
+.headerOfDescription i {
+  color: dodgerblue;
+}
+
+p {
+  font-size: 18px !important;
+  color: lightslategrey;
+  line-height: 35px;
+  letter-spacing: 1.1px;
+}
+
+.detailsOfDescription h2 {
+  color: dodgerblue;
+}

@@ -1,0 +1,161 @@
+h1#data-topic-name {
+  color: #2b2b2b;
+  opacity: 0.5;
+}
+
+section.flex-container .data-details .pagination {
+  display: inline-block;
+  margin-left: 89.5%;
+  margin-top: -5%;
+}
+
+section.flex-container .data-details .pagination#top-pagination-1 {
+  margin-left: 75%;
+}
+
+section.flex-container .data-details .pagination#top-pagination-2 {
+  margin-left: 74%;
+}
+
+section.flex-container .data-details .pagination#top-pagination-3 {
+  margin-left: 73%;
+}
+
+section.flex-container .data-details .pagination#top-pagination-4 {
+  margin-left: 72%;
+}
+
+section.flex-container .data-details .pagination#top-pagination-5 {
+  margin-left: 70%;
+}
+
+section.flex-container .data-details .pagination#bottom-pagination-1 {
+  margin-top: 5%;
+  margin-left: 75%;
+}
+
+section.flex-container .data-details .pagination#bottom-pagination-2 {
+  margin-top: 5%;
+  margin-left: 74%;
+}
+
+section.flex-container .data-details .pagination#bottom-pagination-3 {
+  margin-top: 5%;
+  margin-left: 73%;
+}
+
+section.flex-container .data-details .pagination#bottom-pagination-4 {
+  margin-top: 5%;
+  margin-left: 72%;
+}
+
+section.flex-container .data-details .pagination#bottom-pagination-5 {
+  margin-top: 5%;
+  margin-left: 70%;
+}
+.pagination#bottom-pagination {
+  margin-top: 5%;
+}
+
+section.flex-container .data-details .pagination a {
+  color: #2b2b2b;
+  opacity: 0.5;
+  margin-bottom: 5%;
+  padding-right: 8px;
+  padding-left: 8px;
+  text-decoration: none;
+}
+
+section.flex-container .data-details .pagination a.active {
+  background-color: #125554;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 17px;
+}
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+  border-radius: 10px;
+}
+
+section.flex-container .data-details .dataset-box {
+  width: 875px;
+  height: 297.5px;
+  margin-top: 5%;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 20px 35px rgb(0, 0, 0, 0.1);
+  color: #2b2b2b;
+  opacity: 0.7;
+  padding: 4%;
+}
+
+.dataset-box#box102,
+.dataset-box#box103,
+.dataset-box#box104,
+.dataset-box#box105,
+.dataset-box#box142,
+.dataset-box#box143,
+.dataset-box#box144,
+.dataset-box#box145,
+.dataset-box#box186,
+.dataset-box#box187,
+.dataset-box#box188,
+.dataset-box#box189 {
+  height: 325px;
+}
+
+section.flex-container .data-details .dataset-box span.wg4-name {
+  float: right;
+  background-color: #125554;
+  color: white;
+  padding: 1%;
+  border-radius: 10px;
+}
+
+.submit-btn {
+  display: flex;
+  float: right;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 0.25%;
+  background: #575656;
+  border: 0;
+  outline: none;
+  border-radius: 30px;
+  color: white;
+  font-size: 17px;
+  margin: auto;
+}
+.submit-btn span {
+  display: flex;
+  text-align: center;
+  line-height: 1em;
+}
+
+.submit-btn:hover {
+  background-color: #125554;
+  box-shadow: 0 20px 35px rgb(0, 0, 0, 0.1);
+  color: white;
+}
+
+button.working-group6 {
+  background-color: #125554;
+  opacity: 0.7;
+}
+span#wg6-name {
+  color: whitesmoke;
+}
+i#wg6 {
+  color: whitesmoke;
+}
+
+#data-group {
+  margin-left: -20px;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+h2 {
+  color: #125554;
+}

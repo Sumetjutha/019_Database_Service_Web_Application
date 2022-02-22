@@ -1,0 +1,98 @@
+h1#data-topic-name {
+  color: #2b2b2b;
+  opacity: 0.5;
+}
+
+section.flex-container .data-details .pagination {
+  display: inline-block;
+  margin-left: 85%;
+  margin-top: -5%;
+}
+
+.pagination#bottom-pagination {
+  margin-top: 5%;
+}
+
+section.flex-container .data-details .pagination a {
+  color: #2b2b2b;
+  opacity: 0.5;
+  margin-bottom: 5%;
+  padding-right: 14px;
+  padding-left: 14px;
+  text-decoration: none;
+}
+
+section.flex-container .data-details .pagination a.active {
+  background-color: #125554;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 17px;
+}
+
+section.flex-container .data-details .dataset-box {
+  width: 870px;
+  height: 297.5px;
+  margin-top: 5%;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 20px 35px rgb(0, 0, 0, 0.1);
+  color: #2b2b2b;
+  opacity: 0.7;
+  padding: 4%;
+}
+
+section.flex-container .data-details .dataset-box span.wg1-name {
+  float: right;
+  background-color: #125554;
+  color: white;
+  padding: 1%;
+  border-radius: 10px;
+}
+
+.submit-btn {
+  display: flex;
+  float: right;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 0.25%;
+  background: #575656;
+  border: 0;
+  outline: none;
+  border-radius: 30px;
+  color: white;
+  font-size: 17px;
+  margin: auto;
+}
+.submit-btn span {
+  display: flex;
+  text-align: center;
+  line-height: 1em;
+}
+
+.submit-btn:hover {
+  background-color: #125554;
+  box-shadow: 0 20px 35px rgb(0, 0, 0, 0.1);
+  color: white;
+}
+
+button.working-group1 {
+  background-color: #125554;
+  opacity: 0.7;
+}
+span#wg1-name {
+  color: whitesmoke;
+}
+i#wg1 {
+  color: whitesmoke;
+}
+
+#data-group {
+  margin-left: -20px;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+h2 {
+  color: #125554;
+}
