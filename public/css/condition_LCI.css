@@ -16,7 +16,7 @@ header {
   margin: 0;
   width: 100%;
   position: absolute;
-  top: 30%;
+  top: 20%;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
@@ -42,9 +42,9 @@ header {
 /* condition for use LCI Section */
 .condition {
   margin: auto;
-  margin-top: 32.5%;
+  margin-top: 25.5%;
   width: 80%;
-  height: 700px;
+  height: 630px;
   background-color: #777777;
   opacity: 0.5;
   align-items: center;
@@ -53,6 +53,61 @@ header {
   padding-top: 10px;
   text-align: center;
   color: whitesmoke;
+  letter-spacing: 1px;
+}
+ol {
+  padding-left: 50px;
+  padding-right: 15px;
+}
+#condition_detail {
+  padding-top: 20px;
+  padding-left: 20px;
+  color: whitesmoke;
+  letter-spacing: 1px;
+  line-height: 15px;
+}
+#condition_detail_1 {
+  padding-top: 14px;
+  padding-left: 20px;
+  margin-bottom: -5px;
+  color: whitesmoke;
+  letter-spacing: 1px;
+  line-height: 28px;
+}
+.check_box {
+  margin-left: -25px;
+  padding-top: 75px;
+  color: whitesmoke;
+  letter-spacing: 0.8px;
+  line-height: 28px;
+}
+#myCheck {
+  width: 20px;
+  height: 20px;
+}
+label {
+  margin-left: 17.5px;
+}
+#button1 {
+  background-color: #125554;
+  border: none;
+  color: whitesmoke;
+  padding: 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+  margin-left: 45%;
+  margin-top: 20px;
+  display: none;
+}
+#button1:hover {
+  cursor: pointer;
+  color: yellow;
+}
+a {
+  text-decoration: none;
 }
 /* End condition for use LCI Section */
 
