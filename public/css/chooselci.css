@@ -16,7 +16,7 @@ header {
   margin: 0;
   width: 100%;
   position: absolute;
-  top: 40%;
+  top: 30%;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
@@ -45,7 +45,8 @@ header {
   background-color: #333;
   overflow: hidden;
   width: 80%;
-  margin-top: 40%;
+  margin-top: 32.5%;
+  margin-bottom: 1%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -154,7 +155,7 @@ a {
   color: gray;
 }
 a:hover {
-  text-decoration: underline;
+  /* text-decoration: underline; */
   color: #125554;
 }
 h4 {
