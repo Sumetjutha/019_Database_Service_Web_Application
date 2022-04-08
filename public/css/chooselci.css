@@ -37,7 +37,7 @@ header {
   color: #777777;
 }
 
-/*
+/* End Header Section */
 
 /* Add a black background color to the top navigation */
 
@@ -121,7 +121,10 @@ header {
 .dropdown2:hover .dropdown2-content {
   display: block;
 }
-/* End Header Section */
+
+/* Icon Section */
+
+/* End Icon Section */
 
 /* Footer Section */
 footer {
