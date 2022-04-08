@@ -1,0 +1,115 @@
+/* Header Section */
+header {
+  position: absolute;
+  display: flex;
+  top: 135px;
+  width: 100%;
+  height: 100vh;
+  background-image: url(/img/background_4.jpeg);
+  background-size: 100%;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  z-index: -1;
+}
+.header-content {
+  margin: 0;
+  width: 100%;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  opacity: 0.7;
+  z-index: 0;
+}
+.header-content img {
+  width: 495px;
+  height: 165px;
+}
+.header-content h2 {
+  font-size: 4vmin;
+  color: #125554;
+}
+.header-content h3 {
+  font-size: 3vmin;
+  color: #777777;
+}
+
+/* End Header Section */
+
+/* Request Section */
+.request {
+  margin: auto;
+  width: 50%;
+  height: 575px;
+  background-color: whitesmoke;
+  opacity: 0.7;
+  margin-top: 28%;
+}
+.request h2 {
+  text-align: center;
+  color: #125554;
+}
+form {
+  margin-top: 5%;
+}
+label {
+  font-size: 20px;
+  margin-left: 8.75%;
+  color: #777777;
+}
+input {
+  width: 60%;
+  height: 30px;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 0 1.5px 1.5px lightsteelblue;
+  margin-left: 5%;
+}
+#username {
+  padding-right: 6.5%;
+}
+#Email {
+  padding-right: 8.25%;
+}
+#Password {
+  padding-right: 6.5%;
+}
+#personal_id {
+  margin-left: 2.25%;
+}
+hr {
+  margin-bottom: 2.5%;
+}
+#prefix_name {
+  margin-left: 10.75%;
+}
+#name {
+  margin-left: 17.5%;
+}
+#lastname {
+  margin-left: 11.25%;
+}
+#institution {
+  margin-left: 9.75%;
+}
+/* End Request Section */
+
+/* Footer Section */
+footer {
+  position: relative;
+  width: 100%;
+  min-height: 100px;
+  padding: 20px 80px;
+  margin-top: 100%;
+  margin-bottom: 0;
+  background: #484872;
+  text-align: center;
+}
+footer p {
+  color: whitesmoke;
+  margin: 20px auto;
+}
+/* End Footer Section */

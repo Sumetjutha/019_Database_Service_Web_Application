@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Request Form for LCI</title>
+    <!-- Custom Style CSS -->
+    <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./css/requestForm_LCI.css" />
+    <!-- End Custom Style CSS  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- Navbar Section -->
+    <nav>
+      <a href="/index.html"
+        ><img src="./img/logo_1.jpg" alt="logo" class="logo_1"
+      /></a>
+      <ul class="nav-links">
+        <li><a href="/index.html">หน้าหลัก</a></li>
+        <div class="dropdown">
+          <a>การให้บริการฐานข้อมูล</a>
+          <div class="dropdown-content">
+            <a href="#">A</a>
+            <a href="#">B</a>
+            <a href="/sign_in.html">Thai LCI</a>
+          </div>
+        </div>
+        <li><a href="/chooselci.html">(ซ่อน)</a></li>
+        <li><a href="/dataset.html">ชุดข้อมูล</a></li>
+        <div class="dropdown">
+          <a>ข้อตกลงการใช้งาน</a>
+          <div class="dropdown-content">
+            <a href="/condition.html">เงื่อนไขการให้บริการ</a>
+            <a href="/policy.html">นโยบายคุ้มครองข้อมูลส่วนบุคคล</a>
+          </div>
+        </div>
+        <li><a href="/sign_in.html">เข้าสู่ระบบ/ลงทะเบียน</a></li>
+      </ul>
+    </nav>
+    <!-- Navbar Section -->
+
+    <!-- Header Section -->
+    <header>
+      <div class="header-content">
+        <img src="./img/logo_3.png" alt="" />
+        <br />
+        <h2>ระบบให้บริการฐานข้อมูลวัฏจักรชีวิตของประเทศไทย</h2>
+        <h3>สถาบันเทคโนโลยีและสารสนเทศเพื่อการพัฒนาที่ยั่งยืน</h3>
+      </div>
+    </header>
+    <!-- End Header Section -->
+    <br />
+    <br />
+
+    <!-- Request Form Section -->
+    <div class="request">
+      <h2>แบบฟอร์มการขอใช้ข้อมูล</h2>
+      <form action="">
+        <label for="username" id="username">ชื่อบัญชี</label>
+        <input type="text" id="userName" name="username" /><br /><br />
+
+        <label for="email" id="Email">อีเมลล์</label>
+        <input type="text" id="email" name="email" /><br /><br />
+
+        <label for="password" id="Password">รหัสผ่าน</label>
+        <input type="password" id="password" name="password" /><br /><br />
+
+        <label for="confirmpassword">ยืนยันรหัสผ่าน</label>
+        <input
+          type="password"
+          id="confirm_password"
+          name="confirm_password"
+        /><br /><br />
+        <hr />
+
+        <label for="personal_ID" id="Personal_ID">เลขบัตรประชาชน</label>
+        <input type="text" id="personal_id" name="personal_id" /><br /><br />
+
+        <label for="prefix_name" id="Prefix_name">คำนำหน้า</label>
+        <input type="text" id="prefix_name" name="prefix_name" /><br /><br />
+
+        <label for="name" id="Name">ชื่อ</label>
+        <input type="text" id="name" name="name" /><br /><br />
+
+        <label for="lastname" id="Lastname">นามสกุล</label>
+        <input type="text" id="lastname" name="lastname" /><br /><br />
+
+        <label for="institution" id="Institution">หน่วยงาน</label>
+        <input type="text" id="institution" name="institution" /><br /><br />
+      </form>
+    </div>
+    <!-- End Request Form Section -->
+
+    <!-- Footer Section -->
+    <footer>
+      <p>
+        12345 Six Avenue, Bangkok, Bangkok | Phone: 999-123-456 | Email:
+        contact@example.com
+      </p>
+      <p>Copyright @ 2021 Outdoor Adventure</p>
+    </footer>
+    <!-- End Footer Section -->
+    <script src="./scripts/checked.js"></script>
+  </body>
+</html>
