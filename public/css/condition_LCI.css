@@ -89,6 +89,7 @@ label {
   margin-left: 17.5px;
 }
 #button1 {
+  width: 200px;
   background-color: #125554;
   border: none;
   color: whitesmoke;
@@ -96,9 +97,9 @@ label {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 20px;
   border-radius: 8px;
-  margin-left: 45%;
+  margin-left: 42.25%;
   margin-top: 20px;
   display: none;
 }
@@ -106,6 +107,7 @@ label {
   cursor: pointer;
   color: yellow;
 }
+
 a {
   text-decoration: none;
 }
