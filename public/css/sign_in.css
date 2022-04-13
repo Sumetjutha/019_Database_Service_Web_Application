@@ -192,3 +192,22 @@ span {
   font-size: 15;
 }
 /* End Header Section */
+
+@media screen and (max-width: 1200px) {
+  nav {
+    width: 5%;
+    display: inline-block;
+    font-size: 10px;
+    padding: 0;
+    justify-content: center;
+  }
+  .logo_1 {
+    visibility: hidden;
+  }
+  div.form-box {
+    /* width: 100%; */
+  }
+  header {
+    background-image: none;
+  }
+}
