@@ -195,3 +195,42 @@ footer p {
   margin: 20px auto;
 }
 /* End Footer Section */
+@media screen and (max-width: 1200px) {
+  nav {
+    width: 5%;
+    display: inline-block;
+    font-size: 10px;
+    padding: 0;
+    justify-content: center;
+  }
+  .logo_1 {
+    visibility: hidden;
+  }
+  header {
+    background-image: none !important;
+  }
+  .topnav {
+    width: 50vh;
+    margin-left: 17.5%;
+    margin-top: 100%;
+  }
+  .dropbtn {
+    float: left !important;
+  }
+  .dropdown2-content {
+    margin-left: 30.25%;
+    margin-top: 22.25%;
+  }
+  footer {
+    /* display: none; */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    min-height: 60px;
+    padding: 20px 80px;
+    background: #484872;
+    text-align: center;
+    margin-top: 150%;
+    font-size: 10px;
+  }
+}
