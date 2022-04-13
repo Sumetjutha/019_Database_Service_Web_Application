@@ -193,21 +193,28 @@ span {
 }
 /* End Header Section */
 
-@media screen and (max-width: 1200px) {
-  nav {
-    width: 5%;
-    display: inline-block;
-    font-size: 10px;
-    padding: 0;
-    justify-content: center;
-  }
+/* adjust laptop */
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
   .logo_1 {
-    visibility: hidden;
-  }
-  div.form-box {
-    /* width: 100%; */
+    padding-left: 40%;
+    width: 100px;
+    height: 100px;
   }
   header {
-    background-image: none;
+    height: 120vh;
   }
+  .form-box {
+    margin-top: 5%;
+  }
+  /* footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    min-height: 60px;
+    padding: 20px 80px;
+    background: #484872;
+    text-align: center;
+    font-size: 10px;
+    margin-top: 60%;
+  } */
 }
