@@ -201,3 +201,184 @@ h2 {
     margin-top: 5%;
   }
 }
+
+/* adjust tablet */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+  img.logo_1 {
+    display: none;
+  }
+  header {
+    position: absolute;
+    display: flex;
+    top: 135px;
+    width: 100%;
+    height: 100vh;
+    background-image: url(/img/background_4.jpg);
+    background-size: 100%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  nav {
+    font-size: 15.5px;
+    margin-left: -3%;
+  }
+  .nav-links {
+    display: flex;
+    align-items: center;
+  }
+  .nav-links li {
+    margin: 0 10px;
+  }
+  #data-topic-name {
+    font-size: 16px;
+  }
+  button.working-group1 i,
+  button.working-group2 i,
+  button.working-group2plus1 i,
+  button.working-group3 i,
+  button.working-group4 i,
+  button.working-group5 i,
+  button.working-group6 i,
+  button.working-group7 i,
+  button.working-group7plus1 i,
+  button.working-group8 i {
+    display: none;
+  }
+  section.flex-container .data-group button {
+    margin-top: 2.5%;
+    width: 280px;
+    margin-bottom: 2%;
+    padding: 14px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 20px 35px rgb(0, 0, 0, 0.1);
+    color: #2b2b2b;
+    opacity: 0.7;
+    text-align: left;
+  }
+  section.flex-container .data-group button span {
+    padding: 1.9%;
+    font-size: 18px;
+    font-weight: bold;
+    text-shadow: 0 20px 35px rgb(0, 0, 0, 0.1);
+  }
+  section.flex-container .data-group a {
+    color: #2b2b2b;
+    text-align: left;
+    text-decoration: none;
+  }
+  /* section.flex-container .data-details .pagination#top-pagination1 {
+    display: inline-block;
+    margin-left: -20%;
+    margin-top: -5%;
+  } */
+  section.flex-container .data-details .pagination {
+    display: inline-block;
+    margin-left: 75.5%;
+    margin-top: -5%;
+  }
+
+  section.flex-container .data-details .pagination#top-pagination-1 {
+    margin-left: 42.5%;
+  }
+
+  section.flex-container .data-details .pagination#top-pagination-2 {
+    margin-left: 40.5%;
+  }
+
+  section.flex-container .data-details .pagination#top-pagination-3 {
+    margin-left: 36.5%;
+  }
+
+  section.flex-container .data-details .pagination#top-pagination-4 {
+    margin-left: 27.5%;
+  }
+
+  section.flex-container .data-details .pagination#top-pagination-5 {
+    margin-left: 27.5%;
+  }
+
+  section.flex-container .data-details .pagination#bottom-pagination-1 {
+    margin-top: 5%;
+    margin-left: 42.5%;
+  }
+
+  section.flex-container .data-details .pagination#bottom-pagination-2 {
+    margin-top: 5%;
+    margin-left: 40.5%;
+  }
+
+  section.flex-container .data-details .pagination#bottom-pagination-3 {
+    margin-top: 5%;
+    margin-left: 36.5%;
+  }
+
+  section.flex-container .data-details .pagination#bottom-pagination-5 {
+    margin-top: 5%;
+    margin-left: 27.5%;
+  }
+
+  section.flex-container .data-details .pagination#bottom-pagination-4 {
+    margin-top: 5%;
+    margin-left: 27.5%;
+  }
+
+  .pagination#bottom-pagination {
+    margin-top: 5%;
+  }
+
+  section.flex-container .data-details .pagination a {
+    color: #2b2b2b;
+    opacity: 0.5;
+    margin-bottom: 5%;
+    padding-right: 8px;
+    padding-left: 8px;
+    text-decoration: none;
+  }
+
+  section.flex-container .data-details .pagination a.active {
+    background-color: #125554;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 17px;
+  }
+  .pagination a:hover:not(.active) {
+    background-color: #ddd;
+    border-radius: 10px;
+  }
+
+  section.flex-container .data-details .dataset-box {
+    width: 875px;
+    height: 297.5px;
+    margin-top: 5%;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 20px 35px rgb(0, 0, 0, 0.1);
+    color: #2b2b2b;
+    opacity: 0.7;
+    padding: 4%;
+  }
+  section.flex-container .data-details .dataset-box {
+    width: 370px;
+    height: 415px;
+    margin-top: 5%;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 20px 35px rgb(0, 0, 0, 0.1);
+    color: #2b2b2b;
+    opacity: 0.7;
+    padding: 4%;
+  }
+  section.flex-container .data-details .dataset-box h2 {
+    font-size: 18px;
+  }
+  section.flex-container .data-details .dataset-box p {
+    font-size: 6px;
+  }
+  footer {
+    margin-top: 20%;
+    bottom: 0;
+  }
+}

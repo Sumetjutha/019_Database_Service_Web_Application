@@ -248,12 +248,13 @@ footer p {
     display: flex;
     top: 135px;
     width: 100%;
-    height: 150vh;
-    background-image: url(/img/background_1.jpg);
-    background-size: 200%;
+    height: 100vh;
+    background-image: url(/img/background_4.jpg);
+    background-size: 100%;
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    /* display: none; */
   }
   nav {
     font-size: 15.5px;
@@ -266,8 +267,33 @@ footer p {
   .nav-links li {
     margin: 0 10px;
   }
+  .topnav {
+    margin-top: 60%;
+  }
+  .dropdown2-content {
+    margin-top: 6.75%;
+    margin-left: 61%;
+  }
+  .flex-container_2 {
+    font-size: 10px;
+  }
+  #icon1 {
+    margin-left: 5%;
+  }
+  #detail1 {
+    margin-left: -50%;
+  }
+  #detail2 {
+    margin-left: -10%;
+  }
+  #detail3 {
+    margin-right: -18.5%;
+  }
+  #detail4 {
+    margin-right: -50.5%;
+  }
   footer {
-    margin-top: 110%;
+    margin-top: 20%;
     bottom: 0;
   }
 }
