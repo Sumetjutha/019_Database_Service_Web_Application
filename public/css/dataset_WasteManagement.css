@@ -176,15 +176,15 @@ h2 {
     margin-top: 32.5%;
   } */
   .dataset-box {
-    width: 650px !important;
-    height: 340px !important;
+    /* width: 650px !important;
+    height: 340px !important; */
   }
   .dataset-box p {
     /* display: none; */
   }
   section.flex-container .data-details .pagination {
     display: inline-block;
-    margin-left: 78% !important;
+    /* margin-left: 78% !important; */
     margin-top: -5%;
   }
   footer {
