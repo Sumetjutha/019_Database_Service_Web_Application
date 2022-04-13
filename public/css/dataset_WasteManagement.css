@@ -159,3 +159,43 @@ i#wg7 {
 h2 {
   color: #125554;
 }
+
+/* adjust laptop */
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+  .logo_1 {
+    padding-left: 40%;
+    width: 100px;
+  }
+  header {
+    height: 100vh;
+  }
+  /* .condition {
+    margin-top: 32.5%;
+  } */
+  /* .request {
+    margin-top: 32.5%;
+  } */
+  .dataset-box {
+    width: 650px !important;
+    height: 340px !important;
+  }
+  .dataset-box p {
+    /* display: none; */
+  }
+  section.flex-container .data-details .pagination {
+    display: inline-block;
+    margin-left: 78% !important;
+    margin-top: -5%;
+  }
+  footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    min-height: 60px;
+    padding: 20px 80px;
+    background: #484872;
+    text-align: center;
+    font-size: 10px;
+    margin-top: 20%;
+  }
+}
