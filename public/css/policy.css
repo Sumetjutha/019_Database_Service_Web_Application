@@ -12,6 +12,12 @@ header {
   justify-content: center;
   opacity: 1;
 }
+img.logo_1 {
+  margin-top: 10px;
+  margin-left: -50%;
+  width: 100%;
+  height: 75%;
+}
 /* End Header Section */
 
 /* Condition Description */
