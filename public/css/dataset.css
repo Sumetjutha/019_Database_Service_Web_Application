@@ -208,6 +208,9 @@ footer p {
   .nav-links li {
     margin: 0 10px;
   }
+  p {
+    font-size: 14px !important;
+  }
   footer {
     margin-top: 20%;
     bottom: 0;
