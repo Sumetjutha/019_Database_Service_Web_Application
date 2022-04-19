@@ -242,7 +242,7 @@ span {
   }
   nav {
     font-size: 14px;
-    margin-left: 0%;
+    margin-left: -2%;
   }
   .nav-links {
     display: flex;
@@ -250,6 +250,7 @@ span {
   }
   .nav-links li {
     margin: 0 6px;
+    margin-right: 5px;
     font-size: 14px;
   }
   header {
@@ -316,18 +317,17 @@ span {
   header {
     position: absolute;
     display: flex;
-    /* top: 135px; */
     width: 100%;
     height: auto;
     background-image: url(/img/background_1.jpg);
-    background-size: 300%;
+    background-size: 400%;
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    margin-top: -5.5%;
+    margin-top: -10%;
   }
   nav {
-    font-size: 2px;
+    font-size: 8px;
     margin-left: -1%;
   }
   .nav-links {
@@ -335,7 +335,92 @@ span {
     align-items: center;
   }
   .nav-links li {
-    margin: 0 0 0 0;
+    margin: 0 1px;
+  }
+  footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    min-height: 40px;
+    padding: 0px 0px;
+    background: #484872;
+    text-align: center;
+    font-size: 2.5px;
+    margin-top: 137%;
+    /* display: none; */
+  }
+}
+
+/* adjust middle mobile */
+@media only screen and (min-device-width: 375px) and (max-device-width: 424px) and (-webkit-min-device-pixel-ratio: 2) {
+  img.logo_1 {
+    display: none;
+  }
+  header {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-image: url(/img/background_1.jpg);
+    background-size: 400%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 0%;
+  }
+  nav {
+    font-size: 8px;
+    margin-left: -1%;
+  }
+  .nav-links {
+    display: flex;
+    align-items: center;
+  }
+  .nav-links li {
+    margin: 0 1px;
+  }
+  footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    min-height: 40px;
+    padding: 0px 0px;
+    background: #484872;
+    text-align: center;
+    font-size: 2.5px;
+    margin-top: 155%;
+    /* display: none; */
+  }
+}
+
+/* adjust small mobile */
+@media only screen and (max-device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
+  img.logo_1 {
+    display: none;
+  }
+  header {
+    position: absolute;
+    display: flex;
+    width: 110%;
+    height: auto;
+    background-image: url(/img/background_1.jpg);
+    background-size: 400%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 0%;
+  }
+  nav {
+    font-size: 2px;
+    margin-left: 3.5%;
+  }
+  .nav-links {
+    display: flex;
+    align-items: center;
+    font-size: 2px;
+  }
+  .nav-links li {
+    margin: 0 0px;
     font-size: 2px;
   }
   footer {
@@ -347,7 +432,7 @@ span {
     background: #484872;
     text-align: center;
     font-size: 2.5px;
-    margin-top: 5%;
-    display: none;
+    margin-top: 190%;
+    /* display: none; */
   }
 }
