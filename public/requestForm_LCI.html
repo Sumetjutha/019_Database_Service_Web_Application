@@ -211,11 +211,24 @@
           อาทิขอบเขตการศึกษา(ฺBoundary System) :</label
         >
         <br /><br />
-        <input type="checkbox" name="yes" id="yes_attachment" />
+        <input
+          type="checkbox"
+          name="yes"
+          id="yes_attachment"
+          onclick="myFunction()"
+        />
         <label for="yes_attachment" id="yes">มี</label>
         <input type="checkbox" name="no" id="no_attachment" />
         <label for="no_attachment" id="no">ไม่มี</label>
         <br /><br /><br />
+
+        <div id="upload" style="display: none">
+          <form id="button_form">
+            <input type="file" id="button2" name="filename" />
+          </form>
+        </div>
+
+        <br /><br />
         <hr />
         <br /><br />
       </form>
@@ -235,6 +248,6 @@
       <p>Copyright @ 2021 Outdoor Adventure</p>
     </footer>
     <!-- End Footer Section -->
-    <script src="./scripts/checked.js"></script>
+    <script src="./scripts/attach.js"></script>
   </body>
 </html>
