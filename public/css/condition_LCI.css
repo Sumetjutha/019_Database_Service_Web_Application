@@ -130,8 +130,8 @@ footer p {
 }
 /* End Footer Section */
 
-/* adjust laptop */
-@media screen and (min-device-width: 1200px) and (-webkit-min-device-pixel-ratio: 1) {
+/* adjust large laptop */
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
   img.logo_1 {
     margin-top: 10px;
     margin-left: -50%;
@@ -149,15 +149,15 @@ footer p {
   .nav-links li {
     margin: 0 20px;
   }
-  .topnav {
-    margin-top: 40%;
-  }
   header {
-    height: 165vh;
+    height: 142vh;
     background-size: 150%;
   }
+  .header-content {
+    margin-bottom: 1%;
+  }
   .condition {
-    margin-top: 32.5%;
+    margin-top: 30%;
   }
   footer {
     position: relative;
@@ -168,30 +168,79 @@ footer p {
     background: #484872;
     text-align: center;
     font-size: 16px;
+    margin-top: 20%;
+  }
+}
+
+/* adjust laptop */
+@media screen and (min-device-width: 1024px) and (max-device-width: 1199px) and (-webkit-min-device-pixel-ratio: 1) {
+  img.logo_1 {
+    margin-top: 10px;
+    margin-left: -5.5%;
+    width: 80%;
+    height: 65%;
+  }
+  nav {
+    font-size: 14px;
+    margin-left: 0%;
+  }
+  .nav-links {
+    display: flex;
+    align-items: center;
+  }
+  .nav-links li {
+    margin: 0 6px;
+    font-size: 14px;
+  }
+  header {
+    margin-top: -2.5%;
+    height: 142vh;
+    background-size: 150%;
+  }
+  .header-content {
+    margin-bottom: 1%;
+  }
+  .condition {
+    margin-top: 40%;
+    height: 770px;
+  }
+  #button1 {
+    margin-left: 35%;
+  }
+  footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    min-height: 60px;
+    padding: 20px 80px;
+    background: #484872;
+    text-align: center;
+    font-size: 4px;
     margin-top: 10%;
   }
 }
 
 /* adjust tablet */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1023px) and (-webkit-min-device-pixel-ratio: 2) {
   img.logo_1 {
     display: none;
   }
   header {
     position: absolute;
     display: flex;
-    top: 135px;
+    top: 115px;
     width: 100%;
-    height: 100vh;
+    height: 150vh;
     background-image: url(/img/background_4.jpg);
-    background-size: 100%;
+    background-size: 200%;
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    margin-top: -5%;
   }
   nav {
     font-size: 15.5px;
-    margin-left: -3%;
+    margin-left: -2%;
   }
   .nav-links {
     display: flex;
@@ -200,34 +249,72 @@ footer p {
   .nav-links li {
     margin: 0 10px;
   }
-  .topnav {
-    margin-top: 60%;
-  }
   .condition {
-    margin-top: 52.5%;
+    margin-top: 50%;
     height: 950px;
   }
   #button1 {
-    width: 200px;
-    background-color: #125554;
-    border: none;
-    color: whitesmoke;
-    padding: 16px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 20px;
-    border-radius: 8px;
-    margin-left: 32.25%;
-    margin-top: 20px;
-    display: none;
-  }
-  #button1:hover {
-    cursor: pointer;
-    color: yellow;
+    margin-left: 32.5%;
   }
   footer {
-    margin-top: 20%;
+    position: relative;
     bottom: 0;
+    width: 100%;
+    min-height: 60px;
+    padding: 20px 80px;
+    background: #484872;
+    text-align: center;
+    font-size: 4px;
+    margin-top: 145%;
+    display: none;
+  }
+}
+
+/* adjust mobile */
+@media only screen and (min-device-width: 375px) and (max-device-width: 767px) and (-webkit-min-device-pixel-ratio: 2) {
+  img.logo_1 {
+    display: none;
+  }
+  header {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-image: url(/img/background_1.jpg);
+    background-size: 200%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30%;
+  }
+  nav {
+    font-size: 8px;
+    margin-left: -1%;
+  }
+  .nav-links {
+    display: flex;
+    align-items: center;
+  }
+  .nav-links li {
+    margin: 0 1px;
+  }
+  .condition {
+    margin-top: 92.5%;
+    height: 950px;
+  }
+  #button1 {
+    margin-left: 32.5%;
+  }
+  footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    min-height: 40px;
+    padding: 0px 0px;
+    background: #484872;
+    text-align: center;
+    font-size: 2.5px;
+    margin-top: 185%;
+    display: none;
   }
 }
