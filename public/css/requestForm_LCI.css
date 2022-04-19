@@ -43,7 +43,7 @@ header {
 .request {
   margin: auto;
   width: 50%;
-  height: 650px;
+  height: 1925px;
   background-color: whitesmoke;
   opacity: 0.7;
   margin-top: 28%;
@@ -68,32 +68,219 @@ input {
   box-shadow: 0 0 1.5px 1.5px lightsteelblue;
   margin-left: 5%;
 }
+#prefix_name_0 {
+  margin-left: 8.75%;
+}
+#prefix_dropdown {
+  width: 60%;
+  height: 30px;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 0 1.5px 1.5px lightsteelblue;
+  margin-left: 7.15%;
+}
 #username {
-  padding-right: 6.5%;
+  padding-right: 2%;
 }
-#Email {
-  padding-right: 8.25%;
+#position {
+  padding-right: 6%;
 }
-#Password {
-  padding-right: 6.5%;
+#type_institution {
+  width: 60%;
+  height: 30px;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 0 1.5px 1.5px lightsteelblue;
+  margin-left: 1.5%;
 }
-#personal_id {
+#name_institution {
+  width: 60%;
+  height: 30px;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 0 1.5px 1.5px lightsteelblue;
+  margin-left: 6.5%;
+}
+#address_institution {
+  width: 60%;
+  height: 60px;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 0 1.5px 1.5px lightsteelblue;
+  margin-left: 5%;
+}
+#phone_number {
+  margin-left: 8.5%;
+}
+#email {
+  margin-left: 15.25%;
+}
+#objective {
+  width: 60%;
+  height: 80px;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 0 1.5px 1.5px lightsteelblue;
+  margin-left: 30%;
+}
+#topic_project {
+  font-size: 20px;
+  margin-left: 8.75%;
+  color: #777777;
+}
+#box_project_1 {
+  width: 25px;
+  height: 25px;
+  border: none !important;
+  border-radius: 8px;
+  box-shadow: none;
+  margin-left: 15%;
+}
+#topic_project_1 {
+  font-size: 18px;
+  margin-left: 2.5%;
+  color: #777777;
+}
+#name_project_1_label {
+  font-size: 18px;
+  margin-left: 14.75%;
+  color: #777777;
+}
+#name_project_1 {
   margin-left: 2.25%;
 }
-hr {
-  margin-bottom: 2.5%;
+#objective_project_1_label {
+  font-size: 18px;
+  margin-left: 14.75%;
+  color: #777777;
 }
-#prefix_name {
-  margin-left: 10.75%;
+#objective_project_1 {
+  margin-left: 2.25%;
 }
-#name {
-  margin-left: 17.5%;
+#objective_project {
+  width: 60%;
+  height: 80px;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 0 1.5px 1.5px lightsteelblue;
+  margin-left: 31.25%;
 }
-#lastname {
-  margin-left: 11.25%;
+#source_of_capital_1_label {
+  margin-left: 15.25%;
+  font-size: 18px;
 }
-#institution {
-  margin-left: 9.75%;
+#source_of_capital_1 {
+  width: 60%;
+  height: 30px;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 0 1.5px 1.5px lightsteelblue;
+  margin-left: 4.5%;
+}
+#name_institution_1_label {
+  margin-left: 15.25%;
+  font-size: 18px;
+}
+#name_institution_1 {
+  width: 60%;
+  height: 30px;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 0 1.5px 1.5px lightsteelblue;
+  margin-left: 3.5%;
+}
+#box_project_2 {
+  width: 25px;
+  height: 25px;
+  border: none !important;
+  border-radius: 8px;
+  box-shadow: none;
+  margin-left: 15%;
+}
+#topic_project_2 {
+  font-size: 18px;
+  margin-left: 2.5%;
+  color: #777777;
+}
+#name_project_2_label {
+  font-size: 18px;
+  margin-left: 14.75%;
+  color: #777777;
+}
+#name_project_2 {
+  margin-left: 2.25%;
+}
+#objective_project_2_label {
+  font-size: 18px;
+  margin-left: 14.75%;
+  color: #777777;
+}
+#objective_project_2 {
+  margin-left: 2.25%;
+}
+#objective_project {
+  width: 60%;
+  height: 80px;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 0 1.5px 1.5px lightsteelblue;
+  margin-left: 31.25%;
+}
+#source_of_capital_2_label {
+  margin-left: 15.25%;
+  font-size: 18px;
+}
+#source_of_capital_2 {
+  width: 60%;
+  height: 30px;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 0 1.5px 1.5px lightsteelblue;
+  margin-left: 4.5%;
+}
+#name_institution_2_label {
+  margin-left: 15.25%;
+  font-size: 18px;
+}
+#name_institution_2 {
+  width: 60%;
+  height: 30px;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 0 1.5px 1.5px lightsteelblue;
+  margin-left: 3.5%;
+}
+#objective_again {
+  width: 60%;
+  height: 80px;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 0 1.5px 1.5px lightsteelblue;
+  margin-left: 30%;
+}
+#yes_attachment {
+  width: 25px;
+  height: 25px;
+  border: none !important;
+  border-radius: 8px;
+  box-shadow: none;
+  margin-left: 35%;
+}
+#no_attachment {
+  width: 25px;
+  height: 25px;
+  border: none !important;
+  border-radius: 8px;
+  box-shadow: none;
+  margin-left: 10%;
+}
+#yes {
+  margin-left: 2.5%;
+  font-size: 18px;
+}
+#no {
+  margin-left: 2.5%;
+  font-size: 18px;
 }
 #button1 {
   width: 200px;
@@ -172,7 +359,7 @@ footer p {
     background: #484872;
     text-align: center;
     font-size: 16px;
-    margin-top: 5%;
+    margin-top: 15%;
   }
 }
 
@@ -215,7 +402,7 @@ footer p {
     opacity: 0.7;
   }
   footer {
-    margin-top: 20%;
+    margin-top: 180%;
     bottom: 0;
   }
 }

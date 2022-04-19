@@ -62,38 +62,164 @@
     <div class="request">
       <h2>แบบฟอร์มการขอใช้ข้อมูล</h2>
       <form action="">
-        <label for="username" id="username">ชื่อบัญชี</label>
-        <input type="text" id="userName" name="username" /><br /><br />
+        <label for="prefix" id="prefix_name">คำนำหน้าชื่อ</label>
+        <select id="prefix_dropdown">
+          <option value="0"></option>
+          <option value="1">นาย</option>
+          <option value="2">นาง</option>
+          <option value="3">นางสาว</option>
+        </select>
+        <br /><br />
 
-        <label for="email" id="Email">อีเมลล์</label>
-        <input type="text" id="email" name="email" /><br /><br />
+        <label for="username" id="username">ชื่อ-นามสกุล</label>
+        <input type="text" id="userName_input" name="username" /><br /><br />
 
-        <label for="password" id="Password">รหัสผ่าน</label>
-        <input type="password" id="password" name="password" /><br /><br />
+        <label for="position" id="position">ตำแหน่ง</label>
+        <input type="text" id="position_input" name="position" /><br /><br />
 
-        <label for="confirmpassword">ยืนยันรหัสผ่าน</label>
+        <label for="type_institution" id="type_institution_label"
+          >ประเภทหน่วยงาน</label
+        >
+        <select id="type_institution">
+          <option value="0"></option>
+          <option value="1">หน่วยงานภาครัฐ</option>
+          <option value="2">หน่วยงานภาครัฐวิสาหกิจ</option>
+          <option value="3">หน่วยงานเอกชน</option>
+          <option value="4">หน่วยงาน/องค์กรอิสระ</option>
+          <option value="5">สถาบันการศึกษาภาครัฐ</option>
+          <option value="6">สถาบันการศึกษาภาคเอกชน</option>
+          <option value="7">อื่นๆ</option>
+        </select>
+        <br /><br />
+
+        <label for="name_institution" id="name_institution_label"
+          >ชื่อหน่วยงาน</label
+        >
         <input
-          type="password"
-          id="confirm_password"
-          name="confirm_password"
+          type="text"
+          id="name_institution"
+          name="name_institution"
         /><br /><br />
+
+        <label for="address_institution" id="address_institution_label"
+          >ที่อยู่หน่วยงาน</label
+        >
+        <textarea id="address_institution"> </textarea><br /><br />
+
+        <label for="phone_number" id="phone_number_label">เบอร์ติดต่อ</label>
+        <input type="tel" id="phone_number" name="phone_number" /><br /><br />
+
+        <label for="email" id="email_label">อีเมล</label>
+        <input type="email" id="email" name="email" /><br /><br />
+
+        <label for="objective" id="objective_label"
+          >วัตถุประสงค์ของการนำข้อมูลไปใช้ :</label
+        >
+        <br />
+        <textarea id="objective"> </textarea><br /><br />
         <hr />
+        <br />
 
-        <label for="personal_ID" id="Personal_ID">เลขบัตรประชาชน</label>
-        <input type="text" id="personal_id" name="personal_id" /><br /><br />
+        <p id="topic_project">รายละเอียดกิจกรรมโครงการที่นำข้อมูลไปใช้ :</p>
+        <br />
+        <input type="checkbox" name="yes" id="box_project_1" />
+        <label id="topic_project_1"><u>กิจกรรมภายใต้โครงการ :</u></label
+        ><br />
+        <br />
+        <label for="name_project" id="name_project_1_label"
+          >1.ชื่อโครงการ</label
+        >
+        <input
+          type="name_project"
+          id="name_project_1"
+          name="name_project"
+        /><br /><br />
 
-        <label for="prefix_name" id="Prefix_name">คำนำหน้า</label>
-        <input type="text" id="prefix_name" name="prefix_name" /><br /><br />
+        <label for="objective_project" id="objective_project_1_label"
+          >2.วัตถุประสงค์โครงการ:</label
+        >
+        <textarea id="objective_project"> </textarea><br /><br />
 
-        <label for="name" id="Name">ชื่อ</label>
-        <input type="text" id="name" name="name" /><br /><br />
+        <label for="source_of_capital" id="source_of_capital_1_label"
+          >3.แหล่งทุน</label
+        >
+        <input
+          type="source_of_capital"
+          id="source_of_capital_1"
+          name="source_of_capital"
+        /><br /><br />
 
-        <label for="lastname" id="Lastname">นามสกุล</label>
-        <input type="text" id="lastname" name="lastname" /><br /><br />
+        <label for="name_institution" id="name_institution_1_label"
+          >4.หน่วยงาน</label
+        >
+        <input
+          type="text"
+          id="name_institution_1"
+          name="name_institution"
+        /><br /><br /><br />
 
-        <label for="institution" id="Institution">หน่วยงาน</label>
-        <input type="text" id="institution" name="institution" /><br /><br />
+        <br />
+        <input type="checkbox" name="yes" id="box_project_2" />
+        <label id="topic_project_2"><u>กิจกรรมภายใต้ความร่วมมือ :</u></label>
+        <br /><br />
+        <label for="name_project" id="name_project_2_label"
+          >1.ชื่อโครงการ</label
+        >
+        <input
+          type="name_project"
+          id="name_project_2"
+          name="name_project"
+        /><br /><br />
+
+        <label for="objective_project" id="objective_project_2_label"
+          >2.วัตถุประสงค์โครงการ:</label
+        >
+        <textarea id="objective_project"> </textarea><br /><br />
+
+        <label for="source_of_capital" id="source_of_capital_2_label"
+          >3.แหล่งทุน</label
+        >
+        <input
+          type="source_of_capital"
+          id="source_of_capital_2"
+          name="source_of_capital"
+        /><br /><br />
+
+        <label for="name_institution" id="name_institution_2_label"
+          >4.หน่วยงาน</label
+        >
+        <input
+          type="text"
+          id="name_institution_2"
+          name="name_institution"
+        /><br /><br /><br />
+
+        <hr />
+        <br /><br />
+
+        <label for="objective_again" id="objective_again_label"
+          >แนวทางการนำข้อมูลไปใช้งาน และ/หรือ เผยแพร่ต่อ :</label
+        >
+        <br />
+        <textarea id="objective_again"> </textarea><br /><br /><br />
+        <hr />
+        <br /><br />
+
+        <label for="attachment" id="attachment_label"
+          >เอกสารแนบเพิ่มเติม
+          เพื่อช่วยให้เกิดความเข้าใจและความรวดเร็วในการพิจารณา
+          อาทิขอบเขตการศึกษา(ฺBoundary System) :</label
+        >
+        <br /><br />
+        <input type="checkbox" name="yes" id="yes_attachment" />
+        <label for="yes_attachment" id="yes">มี</label>
+        <input type="checkbox" name="no" id="no_attachment" />
+        <label for="no_attachment" id="no">ไม่มี</label>
+        <br /><br /><br />
+        <hr />
+        <br /><br />
       </form>
+
       <a href="/requestForm_LCI.html">
         <button id="button1">ยืนยัน</button>
       </a>
