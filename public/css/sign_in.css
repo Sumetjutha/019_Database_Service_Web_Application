@@ -394,7 +394,7 @@ span {
 }
 
 /* adjust small mobile */
-@media only screen and (max-device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 374px) and (-webkit-min-device-pixel-ratio: 2) {
   img.logo_1 {
     display: none;
   }
@@ -422,6 +422,17 @@ span {
   .nav-links li {
     margin: 0 0px;
     font-size: 2px;
+  }
+  .form-box {
+    width: 340px;
+    height: 810px;
+    position: relative;
+    margin: 2% auto;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    overflow: hidden;
+    border-radius: 15px;
+    font-size: 20px;
   }
   footer {
     position: relative;
