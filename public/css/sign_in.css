@@ -401,7 +401,7 @@ span {
   header {
     position: absolute;
     display: flex;
-    width: 110%;
+    width: 100%;
     height: auto;
     background-image: url(/img/background_1.jpg);
     background-size: 400%;
