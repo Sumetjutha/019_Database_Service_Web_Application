@@ -368,7 +368,7 @@ footer p {
     bottom: 0;
     width: 100%;
     min-height: 60px;
-    padding: 20px 80px;
+    padding: 0 0 0 0;
     background: #484872;
     text-align: center;
     font-size: 16px;
@@ -414,7 +414,7 @@ footer p {
     bottom: 0;
     width: 100%;
     min-height: 60px;
-    padding: 20px 80px;
+    padding: 0 0 0 0;
     background: #484872;
     text-align: center;
     font-size: 16px;
@@ -456,7 +456,7 @@ footer p {
     bottom: 0;
     width: 100%;
     min-height: 60px;
-    padding: 20px 80px;
+    padding: 0 0 0 0;
     background: #484872;
     text-align: center;
     font-size: 16px;
@@ -678,7 +678,7 @@ footer p {
     bottom: 0;
     width: 100%;
     min-height: 60px;
-    padding: 10px 20px;
+    padding: 0 0 0 0;
     background: #484872;
     text-align: center;
     font-size: 12px;
@@ -742,19 +742,22 @@ footer p {
     margin-left: 25px;
   }
   #type_institution {
-    margin-left: 135px !important;
+    margin-left: 130px !important;
+  }
+  #name_institution {
+    margin-left: 20px !important;
   }
   #address_institution {
-    margin-left: 17px;
+    margin-left: 12px !important;
   }
   #phone_number {
-    margin-left: 35px;
+    margin-left: 30px !important;
   }
   #email {
-    margin-left: 70px;
+    margin-left: 66px !important;
   }
   #objective {
-    margin-left: 140px;
+    margin-left: 130px !important;
   }
   #topic_project {
     font-size: 16px;
@@ -782,7 +785,7 @@ footer p {
     margin-left: 9%;
   }
   #objective_project {
-    margin-left: 140px;
+    margin-left: 128px !important;
   }
   #source_of_capital_1_label {
     font-size: 14px;
@@ -903,10 +906,10 @@ footer p {
     bottom: 0;
     width: 100%;
     min-height: 60px;
-    padding: 10px 20px;
+    padding: 0 0 0 0;
     background: #484872;
     text-align: center;
-    font-size: 12px;
+    font-size: 2px;
     margin-top: 10%;
   }
 }
@@ -1131,7 +1134,7 @@ footer p {
     bottom: 0;
     width: 100%;
     min-height: 60px;
-    padding: 10px 20px;
+    padding: 0 0 0 0;
     background: #484872;
     text-align: center;
     font-size: 12px;
