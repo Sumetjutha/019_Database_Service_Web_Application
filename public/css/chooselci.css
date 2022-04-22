@@ -184,7 +184,7 @@ footer {
   position: relative;
   width: 100%;
   min-height: 100px;
-  padding: 20px 80px;
+  padding: 0 0 0 0;
   margin-top: 1%;
   margin-bottom: 0;
   background: #484872;
@@ -214,6 +214,9 @@ footer p {
   }
   .nav-links li {
     margin: 0 20px;
+  }
+  .topnav {
+    margin-top: 40%;
   }
   header {
     height: 142vh;
@@ -258,7 +261,7 @@ footer p {
   header {
     margin-top: -2.5%;
     height: 142vh;
-    background-size: 150%;
+    background-size: 155%;
   }
   .header-content {
     margin-bottom: 1%;
@@ -293,10 +296,10 @@ footer p {
     bottom: 0;
     width: 100%;
     min-height: 60px;
-    padding: 20px 80px;
+    padding: 0 0 0 0;
     background: #484872;
     text-align: center;
-    font-size: 4px;
+    font-size: 16px;
     margin-top: 20%;
   }
 }
@@ -360,11 +363,11 @@ footer p {
     bottom: 0;
     width: 100%;
     min-height: 60px;
-    padding: 20px 80px;
+    padding: 0 0 0 0;
     background: #484872;
     text-align: center;
     font-size: 4px;
-    margin-top: 20%;
+    margin-top: 30%;
   }
 }
 
@@ -491,7 +494,7 @@ footer p {
     bottom: 0;
     width: 100%;
     min-height: 60px;
-    padding: 20px 80px;
+    padding: 0 0 0 0;
     background: #484872;
     text-align: center;
     font-size: 4px;
@@ -623,7 +626,7 @@ footer p {
     bottom: 0;
     width: 100%;
     min-height: 60px;
-    padding: 20px 80px;
+    padding: 0 0 0 0;
     background: #484872;
     text-align: center;
     font-size: 4px;
@@ -759,6 +762,6 @@ footer p {
     background: #484872;
     text-align: center;
     font-size: 4px;
-    margin-top: 40%;
+    margin-top: 45%;
   }
 }
