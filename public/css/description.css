@@ -24,14 +24,3 @@ p {
 .detailsOfDescription h2 {
   color: dodgerblue;
 }
-
-/* adjust tablet */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
-  .description {
-    margin-top: 10%;
-  }
-  footer {
-    margin-top: 80%;
-    bottom: 0;
-  }
-}
