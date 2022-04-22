@@ -129,6 +129,10 @@ h2 {
   .header-content {
     margin-bottom: 1%;
   }
+  .pagination {
+    margin-left: -10px !important;
+    margin-top: 10px !important;
+  }
   footer {
     position: relative;
     bottom: 0;
@@ -174,7 +178,8 @@ h2 {
     height: fit-content !important;
   }
   .pagination {
-    margin-left: 480px !important;
+    margin-left: -10px !important;
+    margin-top: 10px !important;
   }
   footer {
     position: relative;
@@ -278,10 +283,8 @@ h2 {
     font-size: 6px;
   }
   .pagination {
-    margin-left: 0px !important;
-  }
-  .pagination#bottom-pagination {
-    margin-top: 5%;
+    margin-left: -10px !important;
+    margin-top: 10px !important;
   }
   footer {
     margin-top: 20%;
@@ -359,9 +362,6 @@ h2 {
   button:hover {
     background-color: #ddd;
     box-shadow: 0 20px 35px rgb(0, 0, 0, 0.1);
-  }
-  .pagination {
-    margin-left: aut;
   }
   .submit-btn {
     margin-left: 2px;
@@ -457,10 +457,8 @@ h2 {
     margin-left: 0px !important;
   } */
   .pagination {
-    margin-left: 85px !important;
-  }
-  .pagination#bottom-pagination {
-    margin-top: 5%;
+    margin-left: -10px !important;
+    margin-top: 10px !important;
   }
 
   section.flex-container .data-details .pagination a {
@@ -573,9 +571,6 @@ h2 {
     background-color: #ddd;
     box-shadow: 0 20px 35px rgb(0, 0, 0, 0.1);
   }
-  .pagination {
-    margin-left: aut;
-  }
   .submit-btn {
     margin-left: 2px;
     margin-right: 1px;
@@ -670,10 +665,8 @@ h2 {
     margin-left: 0px !important;
   } */
   .pagination {
-    margin-left: 40px !important;
-  }
-  .pagination#bottom-pagination {
-    margin-top: 5%;
+    margin-left: -10px !important;
+    margin-top: 10px !important;
   }
 
   section.flex-container .data-details .pagination a {
@@ -786,9 +779,6 @@ h2 {
     background-color: #ddd;
     box-shadow: 0 20px 35px rgb(0, 0, 0, 0.1);
   }
-  .pagination {
-    margin-left: aut;
-  }
   .submit-btn {
     margin-left: 2px;
     margin-right: 1px;
@@ -884,9 +874,7 @@ h2 {
   } */
   .pagination {
     margin-left: -10px !important;
-  }
-  .pagination#bottom-pagination {
-    margin-top: 5%;
+    margin-top: 10px !important;
   }
 
   section.flex-container .data-details .pagination a {
