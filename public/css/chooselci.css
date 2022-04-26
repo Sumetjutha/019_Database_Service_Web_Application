@@ -227,7 +227,7 @@ footer p {
   }
   footer {
     position: relative;
-    bottom: 0;
+    bottom: -20px;
     width: 100%;
     min-height: 60px;
     padding: 0 0 0 0;
@@ -293,7 +293,7 @@ footer p {
   }
   footer {
     position: relative;
-    bottom: 0;
+    bottom: -20px;
     width: 100%;
     min-height: 60px;
     padding: 0 0 0 0;
@@ -360,7 +360,7 @@ footer p {
   }
   footer {
     position: relative;
-    bottom: 0;
+    bottom: -20px;
     width: 100%;
     min-height: 60px;
     padding: 0 0 0 0;
@@ -491,7 +491,7 @@ footer p {
   /* End Icon Section */
   footer {
     position: relative;
-    bottom: 0;
+    bottom: -20px;
     width: 100%;
     min-height: 60px;
     padding: 0 0 0 0;
@@ -623,7 +623,7 @@ footer p {
   /* End Icon Section */
   footer {
     position: relative;
-    bottom: 0;
+    bottom: -20px;
     width: 100%;
     min-height: 60px;
     padding: 0 0 0 0;
@@ -755,7 +755,7 @@ footer p {
   /* End Icon Section */
   footer {
     position: relative;
-    bottom: 0;
+    bottom: -20px;
     width: 100%;
     min-height: 60px;
     padding: 0 0 0 0;
