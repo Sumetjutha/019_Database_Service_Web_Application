@@ -365,7 +365,7 @@ footer p {
   }
   footer {
     position: relative;
-    bottom: 0;
+    bottom: -20px;
     width: 100%;
     min-height: 60px;
     padding: 0 0 0 0;
@@ -411,7 +411,7 @@ footer p {
   }
   footer {
     position: relative;
-    bottom: 0;
+    bottom: -20px;
     width: 100%;
     min-height: 60px;
     padding: 0 0 0 0;
@@ -453,13 +453,13 @@ footer p {
   }
   footer {
     position: relative;
-    bottom: 0;
+    bottom: -20px;
     width: 100%;
     min-height: 60px;
     padding: 0 0 0 0;
     background: #484872;
     text-align: center;
-    font-size: 16px;
+    font-size: 12px;
     margin-top: 10%;
   }
 }
@@ -675,7 +675,7 @@ footer p {
   }
   footer {
     position: relative;
-    bottom: 0;
+    bottom: -20px;
     width: 100%;
     min-height: 60px;
     padding: 0 0 0 0;
@@ -903,7 +903,7 @@ footer p {
   }
   footer {
     position: relative;
-    bottom: 0;
+    bottom: -20px !important;
     width: 100%;
     min-height: 60px;
     padding: 0 0 0 0;
@@ -1131,7 +1131,7 @@ footer p {
   }
   footer {
     position: relative;
-    bottom: 0;
+    bottom: -20px;
     width: 100%;
     min-height: 60px;
     padding: 0 0 0 0;

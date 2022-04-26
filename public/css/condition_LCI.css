@@ -161,7 +161,7 @@ footer p {
   }
   footer {
     position: relative;
-    bottom: 0;
+    bottom: -20px;
     width: 100%;
     min-height: 60px;
     padding: 0 0 0 0;
@@ -209,7 +209,7 @@ footer p {
   }
   footer {
     position: relative;
-    bottom: 0;
+    bottom: -20px;
     width: 100%;
     min-height: 60px;
     padding: 0 0 0 0;
@@ -258,7 +258,7 @@ footer p {
   }
   footer {
     position: relative;
-    bottom: 0;
+    bottom: -20px;
     width: 100%;
     min-height: 60px;
     padding: 0 0 0 0;
@@ -311,7 +311,7 @@ footer p {
   }
   footer {
     position: relative;
-    bottom: 0;
+    bottom: -20px;
     width: 100%;
     min-height: 40px;
     padding: 0px 0px;
@@ -363,7 +363,7 @@ footer p {
   }
   footer {
     position: relative;
-    bottom: 0;
+    bottom: -20px;
     width: 100%;
     min-height: 40px;
     padding: 0px 0px;
@@ -443,7 +443,7 @@ footer p {
 
   footer {
     position: relative;
-    bottom: 0;
+    bottom: -20px;
     width: 100%;
     min-height: 40px;
     padding: 0px 0px;
