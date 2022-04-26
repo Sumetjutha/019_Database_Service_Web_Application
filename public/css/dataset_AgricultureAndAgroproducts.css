@@ -246,7 +246,7 @@ h2 {
     padding: 0 0 0 0;
     background: #484872;
     text-align: center;
-    font-size: 16px;
+    font-size: 10px;
     margin-top: 5%;
   }
 }
@@ -350,6 +350,7 @@ h2 {
   footer {
     margin-top: 20%;
     bottom: -20px;
+    font-size: 2px;
   }
 }
 
@@ -551,7 +552,7 @@ h2 {
     padding: 0 0 0 0;
     background: #484872;
     text-align: center;
-    font-size: 14px;
+    font-size: 2px;
     margin-top: 12.5%;
   }
 }
@@ -763,7 +764,7 @@ h2 {
     padding: 0 0 0 0;
     background: #484872;
     text-align: center;
-    font-size: 14px;
+    font-size: 2px;
     margin-top: 12.5%;
   }
 }
@@ -978,7 +979,7 @@ h2 {
     padding: 0 0 0 0;
     background: #484872;
     text-align: center;
-    font-size: 14px;
+    font-size: 2px;
     margin-top: 12.5%;
   }
 }

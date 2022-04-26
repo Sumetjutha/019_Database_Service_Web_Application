@@ -127,7 +127,7 @@ footer p {
   }
   footer {
     position: relative;
-    bottom: 0;
+    bottom: -20px;
     width: 100%;
     min-height: 60px;
     padding: 0 0 0 0;
@@ -182,14 +182,17 @@ footer p {
   }
   footer {
     position: relative;
-    bottom: 0;
+    bottom: -20px;
     width: 100%;
     min-height: 60px;
     padding: 0 0 0 0;
     background: #484872;
     text-align: center;
-    font-size: 4px;
+    font-size: 10px;
     margin-top: 735%;
+  }
+  footer p {
+    font-size: 10px;
   }
 }
 
@@ -234,15 +237,18 @@ footer p {
   }
   footer {
     position: relative;
-    bottom: 0;
+    bottom: -20px;
     width: 100%;
     min-height: 60px;
     padding: 0 0 0 0;
     background: #484872;
     text-align: center;
-    font-size: 4px;
+    font-size: 2px;
     margin-top: 1265%;
     /* display: none; */
+  }
+  footer p {
+    font-size: 2px;
   }
 }
 
@@ -304,13 +310,13 @@ footer p {
   }
   footer {
     position: relative;
-    bottom: 0;
+    bottom: -20px;
     width: 100%;
     min-height: 60px;
     padding: 0 0 0 0;
     background: #484872;
     text-align: center;
-    font-size: 4px;
+    font-size: 2px;
     margin-top: 2670%;
     /* display: none; */
   }
@@ -374,13 +380,13 @@ footer p {
   }
   footer {
     position: relative;
-    bottom: 0;
+    bottom: -20px;
     width: 100%;
     min-height: 60px;
     padding: 0 0 0 0;
     background: #484872;
     text-align: center;
-    font-size: 4px;
+    font-size: 2px;
     margin-top: 3440%;
     /* display: none; */
   }
@@ -444,13 +450,13 @@ footer p {
   }
   footer {
     position: relative;
-    bottom: 0;
+    bottom: -20px;
     width: 100%;
     min-height: 60px;
     padding: 0 0 0 0;
     background: #484872;
     text-align: center;
-    font-size: 4px;
+    font-size: 2px;
     margin-top: 4680%;
     /* display: none; */
   }
