@@ -192,7 +192,7 @@ h2 {
   }
   footer {
     position: relative;
-    bottom: 0;
+    bottom: -20px;
     width: 100%;
     min-height: 60px;
     padding: 0 0 0 0;
@@ -240,7 +240,7 @@ h2 {
   }
   footer {
     position: relative;
-    bottom: 0;
+    bottom: -20px;
     width: 100%;
     min-height: 60px;
     padding: 0 0 0 0;
@@ -349,7 +349,7 @@ h2 {
   }
   footer {
     margin-top: 20%;
-    bottom: 0;
+    bottom: -20px;
   }
 }
 
@@ -545,7 +545,7 @@ h2 {
   /* End Data Group Section */
   footer {
     position: relative;
-    bottom: 0;
+    bottom: -20px;
     width: 100%;
     min-height: 60px;
     padding: 0 0 0 0;
@@ -757,7 +757,7 @@ h2 {
   /* End Data Group Section */
   footer {
     position: relative;
-    bottom: 0;
+    bottom: -20px;
     width: 100%;
     min-height: 60px;
     padding: 0 0 0 0;
@@ -972,7 +972,7 @@ h2 {
   /* End Data Group Section */
   footer {
     position: relative;
-    bottom: 0;
+    bottom: -20px;
     width: 100%;
     min-height: 60px;
     padding: 0 0 0 0;
